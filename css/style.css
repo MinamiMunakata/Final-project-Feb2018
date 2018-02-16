@@ -1,0 +1,241 @@
+body{
+  color:#212529;
+  background-color: #efefef; /*!important;*/
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.inner {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.topicTtl{
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  color: #ff303a;
+}
+
+.top_main {
+  background-image: url("../img/top_main.jpg");
+  background-size: cover;
+  position: relative;
+  height: 400px;
+
+}
+
+.top_my_name {
+  text-align: center;
+  font-weight: bold;
+  height: 477px;
+  line-height: 477px;
+}
+
+.top_m {
+  display: inline-block;
+  text-align: center;
+  font-size: 17em;
+  background-image: url(../img/letter_img.jpg);
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.top_after_m {
+  line-height: 0.9;
+  display: inline-block;
+  font-size: 8em;
+  text-align: left;
+  background-image: url(../img/letter_img.jpg);
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.top_main .top_p {
+  position: absolute;
+  left: 0;
+  font-size: 3em;
+  font-weight: bold;
+  right: 0;
+  display: block;
+  bottom: 0;
+  margin: auto;
+
+}
+
+.about{
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 2em;
+}
+
+.about .aboutPhoto{
+  border-radius: 50%;
+  height: 100%;
+
+}
+
+.about .aboutTxt{
+  line-height: 2em;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+  align-items: center; /* 縦方向中央揃え */
+  -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+  justify-content: center; /* 横方向中央揃え */
+  padding: 2em 0;
+  padding-left: 4em; 
+}
+
+.skill{
+  padding: 2em;
+}
+
+.skillList__img{
+  width: 100%;
+  height: auto;
+}
+
+.skillList__txt{
+  padding: 1em 0;
+}
+
+.history_ttl_box {
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.history_ttl {
+  display: flex;
+  margin: 0 auto;  
+}
+
+.timeline {
+  padding: 2em;
+}
+
+.timeline .container{
+  margin: 0;
+}
+
+.timeline .right::after {
+  left: -13px;
+}
+
+.contact{
+
+}
+
+#contact_message {
+    width: 65%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px){
+  .about .aboutPhoto{
+  border-radius: 50%;
+  height: 100%;
+  max-height: 250px;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .top_after_m {
+    display: none;
+  }
+
+  .about .aboutTxt {
+    padding-left: 0;
+  }
+}
+
+#nav_add_css {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: #efefef !important;
+}
+
+header {
+  position: relative;
+}
+
+form {
+  width: 65%;
+  margin: 20px auto !important;
+}
+
+.name_form {
+  margin-bottom: 1rem;
+}
+
+.box {
+  margin: 0 auto;
+}
+
+.submit_button {
+  margin: 0 auto;
+}
+
+.social_link {
+  text-align: center;
+  padding: 20px;
+}
+
+.fa {
+  padding: 0.2em;
+}
+
+
+#nav_m {
+  color: #fff;
+  border: 5px solid #ff303a;
+  background: #ff303a;
+  border-radius: 50%;
+  font-size: 1em;
+  line-height: 1em;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.nav-link {
+  color: #212529 !important;
+}
+
+/*pie chart*/
+.pie_chart {
+position: relative;
+display: inline-block;
+width: 110px;
+height: 110px;
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
+}
+.pie_chart canvas {
+position: absolute;
+top: 0;
+left: 0;
+}
+.pie_percent {
+display: inline-block;
+line-height: 110px;
+z-index: 2;
+}
+.pie_percent:after {
+content: '%';
+margin-left: 0.1em;
+font-size: .8em;
+}
+
+.pie_skill {
+  text-align: center;
+}
+
+.pie_label {
+  margin: 15px 0;
+}
