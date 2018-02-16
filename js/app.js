@@ -14,7 +14,7 @@ $('.pie_chart').easyPieChart({
 	trackWidth: 16,
 	scaleLength:10,
 	scaleColor:false,
-	animate:{ duration: 5000, enabled: true },
+	animate:{ duration: 10000, enabled: true },
 	rotate:30,
 	onStep: function(from, to, percent) {
 	$(this.el).find('.pie_percent').text(Math.round(percent));
