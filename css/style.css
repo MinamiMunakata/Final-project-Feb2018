@@ -82,7 +82,7 @@ body{
 .about{
   overflow: hidden;
   box-sizing: border-box;
-  padding: 2em;
+  padding: 2em 2em 1em;
 }
 
 .about .aboutPhoto{
@@ -105,7 +105,7 @@ body{
 }
 
 .skill{
-  padding: 2em;
+  padding: 1em 2em 2em;
 }
 
 .skillList__img{
