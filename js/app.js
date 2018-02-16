@@ -1,6 +1,11 @@
+
+// Minami Munakata
+// Feb 15, 2018
+
+
 $(function() {
 $('.pie_chart').easyPieChart({
-//ここに各設定パラメータを記述していきます。
+//ここに各設定パラメータを記述
 	easing:'easeOutQuart',
 	barColor:'rgba(255,109,97,1.0)',
 	trackColor:'rgba(255,218,201,1.0)',

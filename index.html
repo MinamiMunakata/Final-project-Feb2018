@@ -1,3 +1,7 @@
+<!-- 
+Minami Munakata
+Feb 15, 2018
+ -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,10 +12,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- My CSS -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/timeline.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
     <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/timeline.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
     <title>Minami's portfolio</title>
   </head>
   <body>
@@ -57,7 +62,7 @@
       <div class="about box" id="about_pos">
         <h3 class="topicTtl">About</h3>
         <div class="row">
-          <img src="img/profile.jpg" class="aboutPhoto col-md-4">
+          <img src="img/profile.jpg" class="aboutPhoto col-md-4" alt="an image of my profile">
           <p class="aboutTxt col-md-8">Hi, my name is Minami Munakata. I am from Tokyo, Japan. I've been learning web &amp; mobile application development for a couple of months in Vancouver, Canada.</p>
         </div>
       </div>
@@ -66,7 +71,7 @@
         <h3 class="topicTtl">Skills</h3>
         <ul class="skillList row">
           <li class="col-md-3 pie_skill">
-            <div class="pie_chart" data-percent="50">
+            <div class="pie_chart effect" data-percent="50">
             <span class="pie_percent">50</span>
             <div class="pie_label">HTML</div>
             </div>
@@ -75,58 +80,97 @@
             <div class="pie_chart" data-percent="40">
             <span class="pie_percent">40</span>
             <div class="pie_label">CSS</div>
+            </div>
           </li>
           <li class="col-md-3 pie_skill">
             <div class="pie_chart" data-percent="75">
             <span class="pie_percent">75</span>
             <div class="pie_label">JavaScript</div>
+            </div>
           </li>
           <li class="col-md-3 pie_skill">
             <div class="pie_chart" data-percent="85">
             <span class="pie_percent">85</span>
             <div class="pie_label">Python</div>
+            </div>
           </li>
         </ul>
       </div>
-      <!-- Education & Work Experience -->
-      <div class="timeline_wrap box" id="history_pos">
-      <h3 class="topicTtl">History</h3>
-      <div class="history_ttl_box">
-        <div class="history_ttl">
-          <span>Education</span>  
+      <!-- Project -->
+      <div class="projects box" id="projects_pos">
+      <h3 class="topicTtl" id="topicTtl_proj">Projects</h3>
+
+        <div class="project col-md-4">
+          <a href="#">
+            <div class="project-overlay">
+              <img class="project-image" src="img/letter_img.jpg" alt="an image of my project">
+              <div class="project-details">
+                <p class="project-description">Coming Soon</p>
+              </div>
+            </div>
+          </a>
         </div>
-        <div class="history_ttl">
-          <span>Work Experience</span>        
+        <div class="project col-md-4">
+          <a href="#">
+            <div class="project-overlay">
+              <img class="project-image" src="img/letter_img.jpg" alt="an image of my project">
+              <div class="project-details">
+                <p class="project-description">Coming Soon</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="project col-md-4">
+          <a href="#">
+            <div class="project-overlay">
+              <img class="project-image" src="img/letter_img.jpg" alt="an image of my project">
+              <div class="project-details">
+                <p class="project-description">Coming Soon</p>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
-      <div class="timeline">
-        <div class="container left">
-          <div class="content">
-            <h2 class="experience_h2">2007/2011</h2>
-            <h2 class="experience_h2">Shirayuri University<h2>
-            <p>BA in English Language and Literature - Tokyo, Japan</p>
+      <!-- Education & Work Experience -->
+      <div class="timeline_wrap box" id="history_pos">
+        <h3 class="topicTtl" id="topicTtl_his">History</h3>
+        <div class="history_ttl_box">
+          <div class="history_ttl">
+            <span>Education</span>  
+          </div>
+          <div class="history_ttl">
+            <span>Work Experience</span>        
           </div>
         </div>
-        <div class="container right">
-          <div class="content">
-            <h2 class="experience_h2">2011/2013</h2>
-            <h2 class="experience_h2">NIPPON Life Insurance Company</h2>
-              <p>Promote the sales of life insurance as a financial planner.<br>Received the honor of “Top sales of general insuarance in Tokyo area.”<br> Won 2nd prize in sales skills competition. - Tokyo, Japan</p>
+        <div class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h2 class="experience_h2">2007/2011</h2>
+              <h2 class="experience_h2">Shirayuri University</h2>
+              <p>BA in English Language and Literature - Tokyo, Japan</p>
+            </div>
           </div>
-        </div>
-        <div class="container right">
-          <div class="content">
-            <h2 class="experience_h2">2014/2017</h2>
-            <h2 class="experience_h2">AGREX INC</h2>
-            <p>Provided helpdesk support to end-users.<br>
-            Trained over 50 staff members in customer service representative</p>
+          <div class="container right">
+            <div class="content">
+              <h2 class="experience_h2">2011/2013</h2>
+              <h2 class="experience_h2">NIPPON Life Insurance Company</h2>
+                <p>Promote the sales of life insurance as a financial planner.<br>Received the honor of “Top sales of general insuarance in Tokyo area.”<br> Won 2nd prize in sales skills competition. - Tokyo, Japan</p>
+            </div>
           </div>
-        </div>
-        <div class="container left">
-          <div class="content">
-            <h2 class="experience_h2">2017/Current</h2>
-            <h2 class="experience_h2">Cornerstone International Community College</h2>
-            <p>Diploma: Web and Mobile Application Development - Vancouver, Canada</p>
+          <div class="container right">
+            <div class="content">
+              <h2 class="experience_h2">2014/2017</h2>
+              <h2 class="experience_h2">AGREX INC</h2>
+              <p>Provided helpdesk support to end-users.<br>
+              Trained over 50 staff members in customer service representative</p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h2 class="experience_h2">2017/Current</h2>
+              <h2 class="experience_h2">Cornerstone International Community College</h2>
+              <p>Diploma: Web and Mobile Application Development - Vancouver, Canada</p>
+            </div>
           </div>
         </div>
       </div>
@@ -153,8 +197,7 @@
           </div>
           <button type="submit" class="btn btn-primary submit_button">Submit</button>
         </form>        
-      </div>        
-      </div>
+      </div> <!-- contact form -->       
     </div> <!-- inner -->
     </div> <!-- wrapper -->
     <footer>
